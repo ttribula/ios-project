@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.10)
+project(IOS C)
+set(PROG proj2)
+set(FILES_WITHOUT_MAIN components.c components.h)
+set(FILES_MAIN proj2.c ${FILES_WITHOUT_MAIN})
